@@ -1,8 +1,9 @@
 # API Testing
 This API is prepared to test the HTTP Method with ASP.NET
 > Start Project at 10 Apr 2020
-## Repository Description
-```PORT``` https/localhost:5001
+## Repository Description & api
+```Database``` PostgreaSQL
+```PORT``` https://localhost:5001
 1. Student API
 - ```GET``` 
   * /students -> return รายชื่อของนักศึกษาทั้งหมด
@@ -24,3 +25,12 @@ This API is prepared to test the HTTP Method with ASP.NET
   * /univercities/:id -> แก้ไขข้อมูล มหาวิทยาลัย ที่ id ตรงกับใน database
 - ```DELETE``` 
   * /univercities/:id -> ลบ มหาวิทยาลัย ที่ id ตรงกับใน database
+
+3. Register Student in University
+- ```POST``` 
+  * /register -> เพิ่ม การศึกษาของนักศึกษา
+  
+ ## Guideline
+1. Clone this Repository
+2. run with ```Ctrl + F5```
+3. Test with ```Postman```
