@@ -2,7 +2,7 @@
 This API is prepared to test the HTTP Method with ASP.NET
 > Start Project at 10 Apr 2020
 ## Repository Description
-```PORT``` https://localhost:5001/
+```PORT``` https/localhost:5001
 1. Student API
 - ```GET``` 
   * /students -> return รายชื่อของนักศึกษาทั้งหมด
